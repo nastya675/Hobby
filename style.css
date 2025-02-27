@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 1170px;
+  height: 626px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.hobby {
+  width: 300px;
+  height: 250px;
+}
+.hobby__hobby-name {
+  width: 145px;
+  height: 34px;
+  display: flex;
+  gap: 10px;
+}
+.hobby__hobby-icon {
+  width: 36px;
+  height: 34px;
+}
+.hobby__hobby-title {
+  font-family: Questrial;
+  font-weight: 700;
+  font-size: 32.32px;
+  line-height: 33.2px;
+  letter-spacing: 0%;
+  color: #374A3D;
+  margin: 0;
+}
+.hobby__hobby-text {
+  font-family: Questrial;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  width: 300px;
+  height: 122px;
+  color: #678570;
+}
+.hobby__hobby-links {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 162px;
+  height: 39px;
+  margin-left: -20px;
+}
+.hobby__hobby-link-img1 {
+  width: 41px;
+  height: 39px;
+  border-radius: 8px;
+  background: #0CA941;
+}
+.hobby__hobby-link-img:hover {
+  width: 41px;
+  height: 39px;
+  border-radius: 8px;
+  background: #0CA941;
+}
+
+.company {
+  width: 170px;
+  height: 250px;
+}
+.company__title {
+  font-family: Questrial;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #374A3D;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.company__items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+.company__link {
+  text-decoration: none;
+  font-family: Questrial;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0%;
+  color: #678570;
+}
+
+.support {
+  width: 170px;
+  height: 250px;
+}
+.support__title {
+  font-family: Questrial;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #374A3D;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.support__items {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+.support__link {
+  text-decoration: none;
+  font-family: Questrial;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0%;
+  color: #678570;
+}
+
+.contact {
+  width: 206px;
+  height: 245px;
+}
+.contact__title {
+  font-family: Questrial;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0%;
+  color: #374A3D;
+  line-height: 32px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.contact__text {
+  font-family: Questrial;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: #678570;
+}
+.contact__email-title {
+  font-family: Questrial;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0%;
+  color: #374A3D;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.contact__email-text {
+  font-family: Questrial;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0%;
+  color: #678570;
+}
+.contact__telephone-title {
+  font-family: Questrial;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0%;
+  color: #374A3D;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.contact__telephone-num {
+  font-family: Questrial;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0%;
+  color: #678570;
+  line-height: 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.plants {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 110px;
+       column-gap: 110px;
+}
+.plants__footer-line {
+  position: absolute;
+  margin-top: 5px;
+}/*# sourceMappingURL=style.css.map */
